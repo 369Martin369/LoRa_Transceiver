@@ -6,7 +6,7 @@ Project is based on LoRa Receiver &amp; Sender code for Kincony ALR Platform
 The role is depending on the DIP Switch position
 
 If all are left (00000000) or right (11111111) then role is "receiver"
- The receiver is receiving lora messages from the sender nodes and forwards the mqtt topic to the mqtt broker in homeassistant.
+ The receiver is receiving lora messages from the sender nodes and forwards the mqtt topics to the mqtt broker in homeassistant. If a new adress is located, then the mqtt topics are send to register the new device in the broker
     
 All other dipswitch positions are setting the role "sender".
  As sender, all signals from the hardware (4 analog, 2 digital ) are sent by LoRa to the receivers, every 10 seconds. Sender also awaits Lora commands, to toggle the relay.
