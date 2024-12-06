@@ -1,3 +1,7 @@
+//Note, this is alpha status. some functions do not work in sender role yet.
+//receiver is 100% okay for single sender, and conceptual prepared for multiple senders, but not fully tested (I have lack of hardware)
+
+
 #include <LoRa.h>
 #include <SPI.h>
 #include <WiFi.h>
