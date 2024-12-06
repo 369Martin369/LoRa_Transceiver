@@ -1,6 +1,6 @@
 # LoRa_Transceiver
 
-Project is based on LoRa Receiver &amp; Sender code for Kincony ALR Platform
+Project is based on LoRa Receiver &amp; Sender code for Kincony ALR Platform (https://shop.kincony.com/products/esp32-lora-sx1278-gateway-kincony-alr)
 ![image](https://github.com/user-attachments/assets/ffaa3cec-87c2-4d95-83b1-080c13ab0c69)
 ![image](https://github.com/user-attachments/assets/e637d592-fe64-455e-8915-ed1a993c0131)
 
